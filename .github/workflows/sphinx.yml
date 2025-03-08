@@ -17,6 +17,8 @@ jobs:
           python -m venv .venv  # Create a virtual environment
           source .venv/bin/activate  # Activate the virtual environment
           python -m pip install --upgrade pip
+          pip install sphinx
+          pip install furo
           find . -name "requirements.txt" -execdir pip install -r requirements.txt \;
           echo "VIRTUAL_ENV=.venv" >> $GITHUB_ENV  # Persist venv across steps
   
