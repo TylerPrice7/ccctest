@@ -1,7 +1,7 @@
 Usage
 =====
 
-.. autofunction:: lumache.get_random_ingredients
+.. autofunction:: lumache.getRandomIngredients
 .. autoexception:: lumache.InvalidKindError
 
 .. autofunction:: helloworld.main
